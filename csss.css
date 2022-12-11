@@ -1,0 +1,54 @@
+.menu__bar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+}
+.menu__bar ul{
+    list-style: none;
+    display: flex;
+color:rgb(77, 77, 129);
+
+}
+.menu__bar ul li{
+    padding: 10px 30px;
+    position: relative;
+ 
+}
+.menu__bar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ;
+ 
+}
+.menu__bar ul li a:hover{
+    color: aqua;
+    
+}
+.menu__bar ul li:hover .dropdown__menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+
+}
+
+.dropdown__menu{
+    display: none;
+
+}
+.menu__bar ul li:hover .dropdown__menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown__menu ul li{
+    width: 50px;
+    padding: 10px ;
+    
+}

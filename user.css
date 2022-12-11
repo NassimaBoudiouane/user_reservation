@@ -1,0 +1,64 @@
+
+:root{ 
+    /* -------color-------- */
+        --primary-color : #0E4bf1;
+        --panel-color :#FFF;
+        --text-color :#000;
+        --black-light-color : #707070;
+        --border-color:#e6e5e5;
+        --toggle-color :#DDD;
+        --box1-color :#6fa5ad;
+        --box2-color:#ffe6ac;
+        --box3-color:#e7d1fc;
+        --title-icon-color:#fff;
+        --button-sup:rgb(0, 0, 255);
+        --buttom-mod: rgb(128, 0, 128);
+        --buttom-add:rgb(244, 67, 54);
+        /* --button-sup:rgb(255, 123, 0);
+        --buttom-mod: rgb(255, 245, 99); */
+    
+        /* ------------tansition------ */
+        --tran-05 :all 0.5s ease;
+        --tran-03 :all 0.3s ease;
+        --tran-03 :all 0.2s ease;
+    }
+    table{
+        overflow-x: scroll;
+        overflow-Y: scroll;
+    }
+body.dark{
+    --primary-color : #de1212;
+    --panel-color :#242526;
+    --text-color :#CCC;
+    --black-light-color : #CCC;
+    --border-color:#4d4c4c;
+    --toggle-color :#FFF;
+    --box1-color :#3a3b3c;
+    --box2-color:#3a3b3c;
+    --box3-color:#3a3b3c;
+    --title-icon-color:#CCC;
+    --button-sup :#3a3b3c;
+    --buttom-mod :#3a3b3c;
+    --buttom-add:#18277b;
+   
+}
+#btnadd{
+    color: var(--text-color);
+    margin-top:40px;
+    width:20%;
+    cursor:pointer;
+    height: 40px; 
+    background-color:var(--buttom-add);
+    border:none;
+    border-radius:10px;
+    color: var(--text-color);
+    margin-left: 15%;
+}
+#btnadd:hover{
+    background-color:var(--box1-color);
+
+}
+
+
+
+
